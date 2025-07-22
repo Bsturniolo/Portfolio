@@ -6,8 +6,11 @@
     <title>Bautista Sturniolo — Portfolio</title>
 
 
+
     <link rel="stylesheet" href="styles.css">
 </head>
+    
+
 <body>
 
 <header>
@@ -17,7 +20,10 @@
 
 <main>
     <h2>Sobre mí</h2>
-    <p>Hola, soy Bautista un estudiante de la carrera Ingenieria en Informática en la Universidad de Mendoza. Me dedico al desarrollo de software, con experiencia en proyectos de GitHub y contribuciones open source.</p>
+
+    <p>Hola, soy Bautista estudiante de la carrera Ingenieria en Informática en la Universidad de Mendoza. Me dedico al desarrollo de software, con experiencia en proyectos de GitHub y contribuciones open source.</p>
+
+
 
     <h2>Mis proyectos</h2>
     <ul class="proyectos">
@@ -35,7 +41,21 @@
 
 <footer>
     &copy; 2025 Bautista Sturniolo
+
 </footer>
+
+  <div style="margin-top: 1rem;">
+    <button id="botonNoToques" style="background:#e74c3c; color:white; border:none; padding:0.5rem 1rem; border-radius:5px; cursor:pointer;">
+      No toques aquí
+    </button>
+  </div>
+</footer>
+<script>
+document.getElementById('botonNoToques').addEventListener('click', function() {
+    alert('¡Te dije que no toques! Ahora te llevo a otro lado...');
+    window.location.href = 'https://www.linkedin.com/in/bautista-sturniolo-75356b28b/';
+});
+</script>
 
 </body>
 </html>
